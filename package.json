@@ -1,4 +1,7 @@
 {
+  "scripts": {
+    "build-css": "tailwindcss -i ./Styles/app.css -o ./wwwroot/app.css --watch"
+  },
   "devDependencies": {
     "tailwindcss": "^3.4.4"
   }

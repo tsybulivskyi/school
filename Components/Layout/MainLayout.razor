@@ -1,5 +1,19 @@
 ﻿@inherits LayoutComponentBase
 
-<div class="rounded shadow p-2 bg-blue-800">
-   <p class="p text">School</p> 
+<div class="rounded bg-blue-400 p-2 shadow">
+    <p class="p text">Header</p>
+</div>
+<div class="flex">
+    <div class="basis-1/4">
+        <NavMenu />
+    </div>
+
+    <div class="basis-3/4">
+        <main class="bg-gray-300">
+            @Body
+        </main>
+    </div>
+</div>
+<div class="text bg-blue-400 p-1">
+    <p>Footer</p>
 </div>
